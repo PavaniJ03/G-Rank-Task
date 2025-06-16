@@ -1,0 +1,197 @@
+    
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 20px;
+}
+
+.navbar-nav .nav-link {
+  color: black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: white !important;
+  background-color: black;
+}
+
+.hero {
+  background: url('Home.jpg') no-repeat center center/cover;
+  height: 300px;
+  position: relative;
+  color: white;
+}
+.stats {
+  background-color: #2a2e31;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2px 2px; 
+  font-family: Arial, sans-serif;
+}
+ 
+.image-container{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+}
+
+.image-container img{
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+}
+
+.text-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+
+.image-text-num {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.image-text-var {
+  font-size: 10px;
+  font-style: italic;
+  line-height: 1.2;
+  margin-top: 5px;
+  color: white;
+}
+
+.contact-details {
+  max-width: 250px;
+  font-size: 12px;
+  line-height: 1.5;
+  padding-left: 15px;
+}
+.welcome-section {
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.custom-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  color: #2c2c2c;
+}
+
+.custom-padding {
+  padding: 50px 0px 150px 0px;
+}
+
+.rera {
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+.floor-plans {
+  padding: 8px 8px;
+} 
+     
+.background-container {
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+}
+
+.small-images-row {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.small-images-row img {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+    
+.amenities-heading h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.amenities-left p {
+  font-size: 18px;
+  margin-bottom: 20px;
+} 
+
+.amenities-right {
+  flex: 2;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+  gap: 30px;
+  align-items: center;
+  
+}
+
+.nav-arrows {
+  grid-column: 1/-1;
+  display: flex;
+  bottom: 60;
+  right: 20;
+  justify-content: flex-end;
+  gap: 10px; 
+  margin-top: 20px; 
+}  
+
+
+.arrow {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.arrow.white {
+  background: white url('icons/ra.svg.png') no-repeat center center;
+  background-size: 18px;
+}
+.arrow.black {
+  background: black url('icons/la.svg.png') no-repeat center center;
+  background-size: 18px;
+} 
+
+
+.amenities-section {
+  background: url('footer-bg.jpg') no-repeat center center/cover;
+  font-family: 'Segoe UI', sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+.amenity-icon img {
+  width: 40px;
+  height: 40px; 
+  filter: invert(1);
+  /* margin-bottom: 10px; */
+}
+
+.amenity-icon span {
+  display: block;
+  font-size: 0.6rem;
+  margin-top: 5px;
+  color: #fff;
+}
+
+.nav-arrows .arrow {
+  border-radius: 50%;
+}
